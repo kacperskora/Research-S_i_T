@@ -1,3 +1,4 @@
 # Research S_i_T
 This repository is a continuation of my bachelors' degree thesis in which I have tested multiple different models in a task of forecasting next day CO_2 emission allowance price on EU ETS market. I have applied models such as ARIMA, XGBOOST, LSTM, CNN-LSTM, N-BEATS, TFT and their modifications with exogenous variables. As a result I stated that none of the models can systematically outperform the most basic RW model. RW however is connected to an efficent market hypothesis which I have not rejected. It states that the EU ETS allowance market is an effective market in weak type.
+
 In this repository I test different approaches to this problem and try to actually verify if RW can not be beaten. Whole forecasting is made on prices time-series which is not common practice. Overall forecasting prices on markets is rather uncommon practice because it is stated as impossible. I agree, but is RW really the best? 
